@@ -10,8 +10,8 @@ var officialSchema = new Schema ({
       party:String,
       socialist:String,
       phone:String,
-      email:String,  
-})
+      email:String, 
+});
    
 var Official = mongoose.model('Official', officialSchema);
 
